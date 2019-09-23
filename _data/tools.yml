@@ -420,7 +420,9 @@
   v3: true
 
 - name: Unmock
-  category: mock
+  category:
+    - mock
+    - testing
   link: https://unmock.io
   language: Node.js
   github: https://github.com/unmock/unmock-js
